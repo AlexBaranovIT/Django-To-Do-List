@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 
 #Create a new class for new tasks 
-class NewTaskForm(forms.Form):
+class NewTaskForm(forms.Form): 
     task = forms.CharField(label="New Task")
 
 #Create a function that makes a new user session
